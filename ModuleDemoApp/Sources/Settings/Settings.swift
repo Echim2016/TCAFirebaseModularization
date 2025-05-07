@@ -86,8 +86,6 @@ public struct SettingsView: View {
       reducer: {
         Settings()
       }
-    ) {
-      $0.firebaseClient = .previewValue
-    }
+    )
   )
 }
